@@ -1,5 +1,7 @@
 # Matrize
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/catenthusiast/matrize.svg)](https://greenkeeper.io/)
+
 > A Vue.js project
 
 Play around with SVG <feColorMatrix> filters.
