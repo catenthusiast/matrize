@@ -1,0 +1,143 @@
+{
+  "name": "catenthusiast/matrize",
+  "version": "0.1.4",
+  "libraries": {
+    "xv": "^1.1.25"
+  },
+  "title": "",
+  "branch": "",
+  "style": {
+    "name": "Default",
+    "componentSet": {
+      "nav": "nav/BasicNav",
+      "header": "header/BannerHeader",
+      "article": "article/BasicArticle",
+      "footer": "footer/BasicFooter"
+    },
+    "fontFamily": "-apple-system, BlinkMacSystemFont, sans-serif",
+    "fontWeight": 400,
+    "bold": 600,
+    "lineHeight": 1.5,
+    "typeScale": [
+      72,
+      48,
+      24,
+      20,
+      16,
+      14,
+      12
+    ],
+    "monospace": "Menlo, monospace",
+    "heading": {
+      "fontFamily": null,
+      "fontStyle": null,
+      "fontWeight": 600,
+      "lineHeight": 1.25,
+      "textTransform": null,
+      "letterSpacing": null
+    },
+    "h0": {},
+    "h1": {},
+    "h2": {},
+    "h3": {},
+    "h4": {},
+    "h5": {},
+    "h6": {},
+    "alternativeText": {},
+    "space": [
+      0,
+      8,
+      16,
+      32,
+      48,
+      64,
+      96
+    ],
+    "layout": {
+      "maxWidth": 1024,
+      "centered": false
+    },
+    "colors": {
+      "text": "#111",
+      "background": "#fff",
+      "primary": "#08e",
+      "secondary": "#059",
+      "highlight": "#e08",
+      "border": "#ddd",
+      "muted": "#eee"
+    },
+    "border": {
+      "width": 1,
+      "radius": 2
+    },
+    "link": {},
+    "button": {
+      "hover": {
+        "boxShadow": "inset 0 0 0 999px rgba(0, 0, 0, .125)"
+      }
+    },
+    "input": {},
+    "body": {
+      "margin": 0
+    },
+    "breakpoints": {
+      "xs": "@media screen and (max-width:40em)",
+      "sm": "@media screen and (min-width:40em)",
+      "md": "@media screen and (min-width:52em)",
+      "lg": "@media screen and (min-width:64em)"
+    }
+  },
+  "content": [
+    {
+      "component": "nav",
+      "links": [
+        {
+          "href": "https://github.com/catenthusiast/matrize",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://npmjs.com/package/matrize",
+          "text": "npm"
+        }
+      ]
+    },
+    {
+      "component": "header",
+      "heading": "matrize",
+      "subhead": "<feColorMatrix>",
+      "children": [
+        {
+          "component": "ui/TweetButton",
+          "text": "matrize: <feColorMatrix>",
+          "url": null
+        },
+        {
+          "component": "ui/GithubButton",
+          "user": "catenthusiast",
+          "repo": "matrize"
+        }
+      ],
+      "text": "v0.0.1"
+    },
+    {
+      "component": "article",
+      "metadata": {
+        "source": "github.readme"
+      },
+      "html": "\n<blockquote>\n<p>A Vue.js project</p>\n</blockquote>\n<p>Play around with SVG  filters.</p>\n<h2>Build Setup</h2>\n<pre><span class=\"hljs-comment\"># install dependencies</span>\nnpm install\n\n<span class=\"hljs-comment\"># serve with hot reload at localhost:8080</span>\nnpm run dev\n\n<span class=\"hljs-comment\"># build for production with minification</span>\nnpm run build\n\n<span class=\"hljs-comment\"># build for production and view the bundle analyzer report</span>\nnpm run build --report\n\n<span class=\"hljs-comment\"># run unit tests</span>\nnpm run unit\n\n<span class=\"hljs-comment\"># run all tests</span>\nnpm <span class=\"hljs-built_in\">test</span></pre><p>For detailed explanation on how things work, checkout the <a href=\"http://vuejs-templates.github.io/webpack/\">guide</a> and <a href=\"http://vuejs.github.io/vue-loader\">docs for vue-loader</a>.</p>\n"
+    },
+    {
+      "component": "footer",
+      "links": [
+        {
+          "href": "https://github.com/catenthusiast/matrize",
+          "text": "GitHub"
+        },
+        {
+          "href": "https://github.com/catenthusiast",
+          "text": "catenthusiast"
+        }
+      ]
+    }
+  ]
+}
